@@ -4,75 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranjita De-Resume</title>
-    <link rel="stylesheet" href="style.css">
+    
     <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: white;
-            font-size: medium;
-            margin: 1cm;
-            padding: 0%;
-        }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
 
-        header{
-            text-align: left;
-        }
 
-        header h1{
-            text-decoration-thickness: inherit;
-        }
+body {
+    margin: 20px;
+}
 
-        header p {
-         font-size: 1.2em;
-         color: rgb(89, 119, 219);
-        }
 
-        section {
-        background-color: #fff;
-        margin: 20px 0;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
 
-        section h2 {
-        font-size: 1.8em;
-        margin-bottom: 10px;
-        color: #333;
-        }
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
 
-        ul {
-        list-style-type:disc;
-        padding-left: 20px;
-        }
+header p {
+    font-size: 1.1em;
+    color: #3498db;
+    margin-top: 10px;
+}
 
-        ul li {
-         margin-bottom: 10px;
-        font-size: 1.1em;
-        padding-left: 25px;
-        }
 
-        footer {
-        text-align: center;
-        margin-top: 30px;
-        font-size: 1em;
-        }
+section {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
 
-        footer p{
-            color: rgb(89, 119, 219) ;
-        }
-        @media (max-width: 768px) {
-        header h1 {
+    /* Box Model */
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+section h2 {
+    font-size: 1.6em;
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+
+#skills ul {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 2px solid #ddd;
+}
+
+footer p {
+    color: #3498db;
+    font-size: 1em;
+}
+
+
+section:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    header h1 {
         font-size: 2em;
-        }
-        section h2 {
-        font-size: 1.5em;
-        }
-        ul {
-        padding-left: 15px;
-        }
-        }
-    </style>
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 1.4em;
+    }
+}
+    </style> 
 </head>
 <body>
     <header>
